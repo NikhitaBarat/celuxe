@@ -14,7 +14,7 @@
 
 ## What we learned
 
-## 🔮 What's next for Celuxe
+##  What's next for Celuxe
 
 ### Contributors
 
