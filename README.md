@@ -2,20 +2,20 @@
 
 ![](./assets/preview.png)
 
-## Inspiration 
+## Inspiration
 
-## What it does 
+## What it does
 
 ## How we built it️
 
-## Challenges we ran into 
+## Challenges we ran into
 
-## Accomplishments that we're proud of 
+## Accomplishments that we're proud of
 
-## What we learned 
+## What we learned
 
+## 🔮 What's next for Celuxe
 
-## 🔮 What's next for Celuxe 
 ### Contributors
 
 - [Suvangi Paul](https://github.com/suvangipaul)
