@@ -1,84 +1,80 @@
 .about-page {
     display: flex;
-    flex-direction: column;
     justify-content: center;
+    flex-direction: column;
     align-items: center;
-}
-
-.about-profile-top-image {
-    height: 25rem;
-    /* width: 30rem; */
-    margin-top: 6rem;
-    margin-left: 15rem;
-    position: relative;
     
+    /* background-color: green; */
 }
-.white-bg{
-    background-color: white;
-    width: 100vw;
-    height: auto;
+
+.blank-space {
+    height: 20rem;
+}
+
+.fish-image {
+    height: 25rem;
+    position: relative;
     margin-top: -10rem;
-    color: black;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.white-text{
-    margin-left: 4rem;
-}
-.white-text h1{
-    font-size: 4rem;
-    margin: 4rem 0;
-}
-.goals{
-    margin-top: 3rem;
-    font-size: larger;
-}
-.about-mid{
-    position: relative;
-    /* width: 100vw; */
-    max-width: 100%;
-    margin-top: 7rem;
-}
-.mid-container{
-    position: relative;
-    background: rgba(11, 68, 71, 0.545);
-    backdrop-filter: blur(10px);
-    width: 25rem;
-    /* margin: -30rem 0 5rem 40rem; */
-    height: 35rem;
-    margin-top: -33rem;
-    float: right;
-    margin-right: 10rem;
-    padding: 3rem;
-}
-.container-border {
-    border: 2px solid white;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 2rem;
-    text-align: center;
-    color: white;
-    font-size: 1.2rem;
 }
 
-
-.about-para {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0 10vw;
-    margin: 2rem 0;
-}
-
-.about-mid-image {
+.white-bg-contents {
+    background-color: white;
     width: 100%;
 }
 
-.position-relative {
+.about-top {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.about-top h1 {
+    font-size: 4rem;
+    margin-right: 5rem;
+}
+
+.goals-content {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+.full-dishimage {
     position: relative;
-    margin-top: 7rem;
+    height: 35rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.dishimage{
+    position: absolute;
+    width: 100%;
+}
+
+.about-goal-content {
+    padding: 0 5rem;
+}
+
+.hunger-div {
+    position: absolute;
+    background: rgba(11, 68, 71, 0.76);
+backdrop-filter: blur(27px);
+    height: 35rem;
+    width: 18rem;
+    padding: 2rem;
+    margin-right: 20rem;
+    margin-top: -2rem;
+
+}
+
+.hg-border {
+    border: 2px solid white;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    padding: 2rem 0;
 }
