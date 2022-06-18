@@ -1,6 +1,6 @@
 const NewsModel = require('../models/news.model')
 
-const getEvents = async (req, res) => {
+const getAllNews = async (req, res) => {
     try {
         const event_data = await NewsModel.find()
         res.send(event_data)
@@ -9,7 +9,7 @@ const getEvents = async (req, res) => {
     }
 } 
 
-const createEvent = async (req, res) => {
+const createNews = async (req, res) => {
     const event_body = req.body 
     try {
         const event_data = await NewsModel.create(event_body)
@@ -20,7 +20,7 @@ const createEvent = async (req, res) => {
 }
 
 
-const deleteEvent = async (req, res) => {
+const deleteNews = async (req, res) => {
     const event_id = req.params.id 
     try {
         const event_data = await NewsModel.findByIdAndDelete(event_id)
@@ -31,7 +31,7 @@ const deleteEvent = async (req, res) => {
 }
 
 
-const getOneEvent = async (req, res) => {
+const getOneNews = async (req, res) => {
     const event_id = req.params.id 
     try {
         const event_data = await NewsModel.findById(event_id)
@@ -41,7 +41,7 @@ const getOneEvent = async (req, res) => {
     }
 }
 
-const updateEvent = async (req, res) => {
+const updateNews = async (req, res) => {
     const event_id = req.params.id 
     const event_body = req.body
     try {
@@ -53,9 +53,9 @@ const updateEvent = async (req, res) => {
 }
 
 module.exports = { 
-    createEvent,
-    deleteEvent,
-    getEvents,
-    getOneEvent,
-    updateEvent
+    createNews,
+    deleteNews,
+    getAllNews,
+    getOneNews,
+    updateNews
 }
