@@ -9,7 +9,7 @@ const Home = () => {
         <div className="intro-content">
           <h2 className="solid trans-from-top">TOGETHER, WE</h2>
           <h2 className="outline trans-from-left">CAN CREATE</h2>
-          <h2 className="outline trans-from-left">WORTH WITH</h2>
+          <h2 className="outline trans-from-left">WORLD WITH</h2>
           <h1 className="solid trans-from-buttom">NO HUNGER</h1>
         </div>
         <img className="plate trans-from-right" src={Plate} alt="" />
