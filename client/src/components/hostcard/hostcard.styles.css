@@ -1,0 +1,95 @@
+.hostcard {
+  height: 26rem;
+  display: flex;
+  margin-top: 6rem;
+  justify-content: center;
+  background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.2) 0%,
+      rgba(0, 0, 0, 0) 100%
+    ),
+    rgba(78, 78, 78, 0.57);
+  border-radius: 10px;
+  padding: 1rem;
+  position: relative;
+}
+
+.host-top-card-container {
+  height: 25rem;
+  width: 15rem;
+  margin-top: -6rem;
+  background: rgba(176, 176, 176, 0.17);
+  backdrop-filter: blur(60px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 20px;
+  position: absolute;
+  z-index: 3;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-content: center;
+  /* padding: 1rem; */
+}
+
+.green-bg {
+  background: #adff00;
+  border-radius: 7px;
+  height: 2rem;
+  width: 10rem;
+  position: absolute;
+  z-index: 2;
+  margin-top: -7rem;
+}
+
+.host-image {
+  height: 5rem;
+  width: 5rem;
+  border-radius: 5rem;
+  margin-top: 5rem;
+}
+
+.host-contents {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.points-container {
+  height: 4rem;
+  width: 15rem;
+  background: #adff00;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.host-img-name h3 {
+  font-weight: 400;
+}
+
+
+.points-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    color: black;
+}
+
+
+.profile-status {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.event-stats {
+    width: 15rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.event-stats p {
+    color: rgb(179, 179, 179);
+}
