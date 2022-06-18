@@ -4,6 +4,8 @@ const dotenv = require('dotenv')
 const cors = require('cors')
 dotenv.config()
 const eventRoute = require('./routes/events.routes')
+const newsRoute = require('./routes/news.routes')
+const graphRoute = require('./graphql/query')
 
 
 // configuration
@@ -24,7 +26,10 @@ db.once('open', () => {
     console.log('Database is connected')
 })
 
+// routes
 app.use('/api/event', eventRoute)
+app.use('/api/news', newsRoute)
+app.use('/graphql', graphRoute)
 
 app.get('/', (req, res) => {
     res.send('Server route is working perfectly')

@@ -1,14 +1,22 @@
 const express = require('express')
 const router = express.Router()
-const { createNews, deleteNews, getAllNews, getOneNews, updateNews } = require('../controllers/events.controller')
-router.get('/all', getEvents)
 
-router.post('/create', createEvent)
+const { 
+    createNews,
+    deleteNews,
+    getAllNews,
+    getOneNews,
+    updateNews
+} = require('../controllers/news.controllers')
 
-router.delete('/:id', deleteEvent)
+router.get('/all', getAllNews)
 
-router.get('/:id', getOneEvent)
+router.post('/create', createNews)
 
-router.put('/:id', updateEvent)
+router.delete('/:id', deleteNews)
+
+router.get('/:id', getOneNews)
+
+router.put('/:id', updateNews)
 
 module.exports = router
