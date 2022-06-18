@@ -1,38 +1,61 @@
-.snap-topic{
+.snap-topic {
     color: white;
     margin-top: 2rem;
     margin-left: 4rem;
     font-size: 3rem;
+    text-align: right;
+    padding: 0 2rem;
+    width: 50rem;
+    position: relative;
+    margin-top: 10rem;
 }
-.snap-profile{
+
+.snap-header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.snap-profile {
     height: 20rem;
+    width: 40%;
     margin-top: 7rem;
-    margin-left: 35rem;
+    margin-left: 50rem;
     border: .5rem solid white;
 }
-.white-bg{
+
+.white-text {
+    padding: 5rem;
+}
+
+.white-bg {
     background-color: white;
     width: 100vw;
     height: auto;
     margin-top: -10rem;
     color: black;
 }
-.el-text{
+
+.el-text {
     margin-left: 3rem;
     font-size: 2rem;
 }
-.el-contents{
-    margin-top: 14rem;
+
+.el-contents {
+    margin-top: 10rem;
     display: flex;
+    position: relative;
 }
-.el-image img{
+
+.el-image img {
     width: 20rem;
 }
-.el-points{
+
+.el-points {
     margin-left: 2rem;
     margin-right: 4rem;
 }
-.el-button{
+
+.el-button {
     background: linear-gradient(269.3deg, rgba(255, 0, 0, 0.73) -2.28%, rgba(255, 0, 0, 0) 100%), #5364FF;
     border: none;
     padding: .5rem;
