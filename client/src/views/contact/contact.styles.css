@@ -22,7 +22,7 @@
 
 .screen {
     position: relative;
-    background: #3e3e3e;
+    background: rgba(78, 78, 78, 0.57);
     border-radius: 15px;
 }
 
