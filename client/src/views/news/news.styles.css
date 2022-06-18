@@ -37,3 +37,50 @@
     z-index: -2;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #111111 100%);
 }
+
+.new-articles {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.article-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    width: 30rem;
+    padding: 0 1rem;
+}
+
+
+.blue {
+    background-color: blue;
+}
+
+.new-thumb {
+    width: 100%;
+}
+
+.news-col {
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+}
+
+.read-more {
+    padding: 1rem .5rem;
+    /* height: 2rem; */
+    text-align: right;
+    border-bottom: 2px solid white;
+}
+
+.new-articles h1 {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.new-desp {
+    color: rgb(187, 187, 187);
+}
