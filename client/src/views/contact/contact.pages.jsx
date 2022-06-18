@@ -35,7 +35,7 @@ const Contact = () => {
             <div class="screen-body-item">
               <div class="app-form">
                 <div class="app-form-group">
-                  <input class="app-form-control" placeholder="NAME" value="Noah Smith" />
+                  <input class="app-form-control" placeholder="NAME" />
                 </div>
                 <div class="app-form-group">
                   <input class="app-form-control" placeholder="EMAIL" />
