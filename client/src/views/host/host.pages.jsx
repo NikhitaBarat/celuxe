@@ -35,7 +35,7 @@ const Host = () => {
               <input type="date" className="event-inputs" />
             </div>
             <div className="event-title event-inp-fields">
-              <h2>Enter co-hosting members email</h2>
+              <h2>Venue</h2>
               <input
                 type="email"
                 placeholder="Enter name of the event"
