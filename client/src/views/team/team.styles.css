@@ -1,0 +1,6 @@
+.team-row {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 2rem 5rem;
+}
