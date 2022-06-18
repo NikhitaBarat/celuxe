@@ -1,0 +1,51 @@
+.eventcard-header-text h1 {
+    color: white;
+}
+
+.description {
+    display: flex;
+    justify-content: space-between;
+}
+
+.description p {
+    color: white;
+    width: 40rem;
+}
+
+.eventcard__right {
+    font-size: 1rem;
+    color: white;
+    font-weight: 200;
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.eventcard-container {
+    background: rgba(43, 43, 44, 0.67);
+    position: relative;
+    border: 1px solid #000000;
+    backdrop-filter: blur(15px);
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.booking-btn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.booking-btn h2 {
+    color: white;
+}
+
+.book-btn {
+    background: linear-gradient( 269.3deg, rgba(255, 0, 0, 0.73) -2.28%, rgba(255, 0, 0, 0) 100%), #5364ff;
+    border-radius: 5px;
+    font-size: 1.05rem;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    width: 20rem;
+    font-family: 'Poppins', sans-serif;
+}
