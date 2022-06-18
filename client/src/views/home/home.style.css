@@ -50,7 +50,7 @@
     width: 40rem;
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: flex-end;
 }
 .quote h1{
     text-align: right;
