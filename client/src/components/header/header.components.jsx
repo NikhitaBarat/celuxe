@@ -6,8 +6,8 @@ function Header() {
     <header>
       <div className="header-content">
         <div className="header-left">
-          <a href="/">
-            <p>Celuxe</p>
+          <a className="logo" href="/">
+            <p>CEL<span>UXE</span></p>
           </a>
         </div>
         <div className="header-right">
