@@ -1,0 +1,31 @@
+.page{
+    color: white;
+    margin: 0 4rem 0 4rem;
+}
+.page-title{
+    font-size: 2rem;
+}
+.find-map{
+    height: 15rem;
+}
+.float-page{
+    display: flex;
+}
+.capacity-container{
+    text-align: right;
+    line-height: 2rem;
+    width: 100%;
+}
+.capacity-check{
+    letter-spacing: -0.03em;
+    color: #AFAFAF;
+}
+#standard-select{
+    background: rgba(48, 48, 48, 0.57);
+    border: 3px solid #727272;
+    border-radius: 5px;
+    color: white;
+    height: 2.3rem;
+    width:  25rem;
+    padding-left: 1rem;
+}
