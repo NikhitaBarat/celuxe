@@ -33,7 +33,7 @@ const Home = () => {
         <div className="quote solid">
             <h1>HELP</h1>
             <h1>SOLVE</h1>
-            <div className="red-outline">
+            <div className="red-outline trans-from-left">
                 <h1 className="trans-from-right">HUNGER</h1>
             </div>
         </div>

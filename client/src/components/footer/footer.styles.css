@@ -1,0 +1,38 @@
+.footer {
+    color: white;
+    height: 15rem;
+    padding: 2rem 0;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center; 
+    flex-direction: column;
+}
+
+.footer-main-nav-content {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 2rem;
+    line-height: 2rem;
+}
+
+.footer-content {
+    margin-right: 5rem;
+}
+
+.buttom-content {
+    text-align: center;
+    margin-top: 1rem;
+    padding: 1rem 0;
+}
+
+.madeby {
+    font-size: .9rem;
+}
+
+.footer-icon {
+    height: 2rem;
+    margin-right: 2rem;
+}

@@ -1,6 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import { Header } from "./components";
+import { Header, Footer } from "./components";
 import { Home, About, Event, Find, News, Pantry, ScheduleEvent, Snap, Team, Host } from "./views";
 
 function App() {
@@ -19,6 +19,7 @@ function App() {
         <Route path="team" element={<Team />} />
         <Route path="host" element={<Host />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
