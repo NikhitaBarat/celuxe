@@ -1,0 +1,72 @@
+.pantry{
+    color: white;
+    margin: 2rem 2rem 0 4rem;
+}
+.title{
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+.pantry-form{
+    width: 50rem;
+}
+.pantry-form label{
+    font-size: 1rem;
+    margin-bottom: .5rem;
+}
+.pantry-form input{
+    background: rgba(48, 48, 48, 0.57);
+    border: 3px solid #727272;
+    border-radius: 5px;
+    height: 2rem;
+    margin-bottom: 1rem;
+    padding: .7rem;
+}
+.first{
+    display: flex;
+    flex-wrap: wrap;
+}
+.pantry-inp{
+    display: flex;
+    flex-direction: column;
+    margin-right: 2rem;
+}
+.name{
+    width: 30rem;
+}
+.date{
+    width: 15rem;
+    color: #727272;
+}
+.uni-name{
+    width: 40rem;
+    margin-top: .5rem;
+}
+.third{
+    display: flex;
+}
+.item-inp{
+    display: flex;
+    flex-direction: column;
+    margin-right: 2.5rem;
+    margin-top: .5rem;
+}
+.add{
+    width: 20rem;
+}
+.add-button{
+    background: #4E4E4E;
+    height: 2rem;
+    width: 10rem;
+    border: 3px solid #7D7D7D;
+    border-radius: 5px;
+    color: white;
+}
+.submit{
+    width: 47rem;
+    background: linear-gradient(269.3deg, rgba(255, 0, 0, 0.73) -2.28%, rgba(255, 0, 0, 0) 100%), #5364FF;
+    border-radius: 5px;
+    height: 2.5rem;
+    color: white;
+    margin-top: 1.5rem;
+}
