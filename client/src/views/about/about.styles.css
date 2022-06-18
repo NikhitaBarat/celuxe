@@ -1,0 +1,42 @@
+.about-profile{
+    height: 20rem;
+    margin-top: 7rem;
+    margin-left: 35rem;
+}
+.white-bg{
+    background-color: white;
+    width: 100vw;
+    height: auto;
+    margin-top: -10rem;
+    color: black;
+}
+.white-text{
+    margin-left: 3rem;
+}
+.white-text h1{
+    font-size: 4rem;
+    margin-top: 2rem;
+}
+.goals{
+    margin-top: 3rem;
+    font-size: larger;
+}
+.about-mid{
+    width: 100vw;
+    margin-top: 7rem;
+}
+.mid-container{
+    background: rgba(11, 68, 71, 0.76);
+    backdrop-filter: blur(27px);
+    width: 25rem;
+    margin: -30rem 0 5rem 40rem;
+    height: 40rem;
+}
+.container-border{
+    width: 20rem;
+    height: 30rem;
+    margin-left: 2.5rem;
+    border: .5rem solid white;
+    color: white;
+    text-align: center;
+}
