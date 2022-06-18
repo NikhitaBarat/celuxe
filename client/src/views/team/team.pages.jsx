@@ -15,7 +15,7 @@ const Team = () => {
           <div className="overlay-bg"></div>
           <div className="overlay-bg"></div>
         </div>
-        <h1 className="solid">Our Teams :)</h1>
+        <h1 className="solid">Our Team :)</h1>
       </div>
       <div className="team-row">
         <Teamcard
