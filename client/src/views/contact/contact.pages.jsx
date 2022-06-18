@@ -30,7 +30,7 @@ const Contact = () => {
                 <span>CONTACT</span>
                 <span>US</span>
               </div>
-              <div class="app-contact">CONTACT INFO : +91 81 57 928 595</div>
+              
             </div>
             <div class="screen-body-item">
               <div class="app-form">
