@@ -11,7 +11,7 @@
     color: black;
 }
 .white-text{
-    margin-left: 3rem;
+    margin-left: 4rem;
 }
 .white-text h1{
     font-size: 4rem;
@@ -30,13 +30,16 @@
     backdrop-filter: blur(27px);
     width: 25rem;
     margin: -30rem 0 5rem 40rem;
-    height: 40rem;
+    height: 35rem;
 }
-.container-border{
+/* .container-border{
     width: 20rem;
     height: 30rem;
     margin-left: 2.5rem;
     border: .5rem solid white;
     color: white;
     text-align: center;
+} */
+.about-para{
+    margin: 0 4rem 2rem 4rem;
 }
