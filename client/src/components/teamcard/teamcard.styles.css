@@ -1,0 +1,28 @@
+.our-team {
+    padding: 2rem;
+}
+
+.solid {
+    color: white;
+    padding: 1rem;
+}
+
+.team-player {
+    text-align: center;
+    align-items: center;
+}
+
+.member {
+    border-radius: 40rem;
+    height: 15rem;
+}
+
+.social-icon {
+    height: 2rem;
+    margin: 0.5rem 1rem;
+}
+
+.social-icon:hover {
+    transform: scale(1.5);
+    transition: 1.05s;
+}
