@@ -4,6 +4,7 @@ const dotenv = require('dotenv')
 const cors = require('cors')
 dotenv.config()
 const eventRoute = require('./routes/events.routes')
+const newsRoute = require('./routes/news.routes')
 
 
 // configuration
@@ -25,6 +26,8 @@ db.once('open', () => {
 })
 
 app.use('/api/event', eventRoute)
+app.use('/api/news', newsRoute)
+
 
 app.get('/', (req, res) => {
     res.send('Server route is working perfectly')
