@@ -1,28 +1,112 @@
 .home-head-content {
     color: white;
-    line-height: 7rem;
     position: relative;
     display: flex;
+    justify-content: center;
+    margin-top: 4rem;
 }
 
 .home-head-content h2{ 
-    font-size: 8rem;
+    font-size: 10rem;
+    line-height: 9rem;
+
+}
+.home-head-content h1 {
+    font-size: 15rem;
+    line-height: 10rem;
+
 }
 
 .plate {
     position: absolute;
     height: 25rem;
+    margin-top: 5rem;
+    margin-left: 45rem;
     /* right: 0; */
-
 }
 
-.home-head-content h1 {
-    font-size: 10rem;
-}
+
+
 .outline {
     font-family: "Londrina Outline", cursive; 
 }
 
 .solid {
     font-family: "Londrina Solid", cursive;
+}
+
+.agenda {
+    font-size: .9rem;
+}
+
+.solve-hunger-section {
+    color: white;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 10rem 0;
+}
+.quote {
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+.quote h1{
+    text-align: right;
+    font-size: 6rem;
+    line-height: 6rem;
+}
+
+.red-outline {
+    background: rgba(255, 77, 77, 0.4);
+    backdrop-filter: blur(3px);
+    margin-left: 5rem;
+}
+
+.solve-content{ 
+    width: 20rem;
+    height: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.solve-content p {
+    font-size: 1.2rem;
+    font-weight: 200;
+}
+
+.child {
+    height: 30rem;
+    position: absolute;
+    z-index: -2;
+    margin-left: 20rem;
+}
+.more-about-it {
+    padding: 1rem .2rem;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+}
+
+
+.home-stats{
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.home-stats h1 {
+    font-weight: 400;
+}
+
+.stats-content {
+    text-align: center;
+    width: 15rem;
+    margin: 2rem 4rem;
 }
