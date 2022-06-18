@@ -3,18 +3,29 @@ header {
     animation: TransitionFromTop 1s;
 }
 
+.logo {
+    font-family: "Londrina Solid", cursive;
+}
+
+.logo span {
+    background-color: rgb(19, 112, 243);
+    padding: .05rem .2rem;
+    border-radius: 4px;
+    margin-left: .2rem;
+}
+
 .header-content {
     display: flex;
     padding: 0 2rem;
     padding-bottom: 1rem;
     justify-content: space-between;
-    border-bottom: 2px solid black;
-    color: black;
+    border-bottom: 2px solid white;
+    color: white;
 }
 
 .header-content a {
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .header-content p {
@@ -22,6 +33,7 @@ header {
 }
 
 .header-option {
+    font-weight: 200;
     display: flex;
 }
 
