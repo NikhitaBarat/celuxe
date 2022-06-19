@@ -31,7 +31,7 @@ const Footer = () => {
               </a>
               <img className="footer-icon" src={LinkedinIcon} alt="" />
             </div>
-            <p>Contact Us</p>
+            <a className="contact-us" href="/contact">Contact Us</a>
           </div>
         </div>
 
