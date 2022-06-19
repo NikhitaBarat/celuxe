@@ -1,0 +1,15 @@
+.event-page {
+    padding: 2rem;
+}
+
+.event-header {
+    padding: 0 2rem;
+    color: white;
+}
+.event-header h1 {
+    font-size: 4rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

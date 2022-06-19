@@ -12,7 +12,10 @@ const Events = () => {
           <div className="overlay-bg"></div>
           <div className="overlay-bg"></div>
         </div>
-        <div>
+        <div className="event-header">
+          <h1>Events</h1>
+        </div>
+        <div className="events-list">
           <Eventcard />
         </div>
       </div>
