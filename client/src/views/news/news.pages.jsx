@@ -13,11 +13,11 @@ const News = () => {
       </div>
       <div className="news-header-content">
         <h1>
-          Covid spotlights hunger struggles for Australia’s overseas students
+          Covid spotlights hunger struggles for Australia's overseas students
         </h1>
         <p>
           Students collaborate to combat food shortages, as Covid widens the gap
-          between Australia’s haves and have-nots
+          between Australia's haves and have-nots
         </p>
       </div>
       <div className="article-section">

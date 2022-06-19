@@ -1,6 +1,14 @@
 .team-row {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     color: white;
     padding: 2rem 5rem;
+}
+
+
+.team-header {
+    color: white;
+    padding: 0 5rem;
 }

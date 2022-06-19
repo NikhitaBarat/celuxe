@@ -42,5 +42,5 @@ app.get('/', (req, res) => {
 // })
 
 app.listen(PORT, (req, res) => {
-    console.log(`Server is running at http://localhost:${PORT}/api`)
+    console.log(`Server is running at http://localhost:${PORT}`)
 })

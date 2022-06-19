@@ -9,7 +9,7 @@ const Find = () => {
       <div>
         <div className="capacity-container">
           <div className='page-title'>Pantry Capacity</div>
-          <p className="capacity-check">Check your university’s pantry Capacity</p>
+          <p className="capacity-check">Check your universitys pantry Capacity</p>
           <p className="capacity-date">18 Jun, 2022</p>
           <div class="select">
             <select id="standard-select">
