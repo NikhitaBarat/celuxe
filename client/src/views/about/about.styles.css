@@ -26,6 +26,7 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    animation: TransitionFromButtom 2s;
 }
 
 .about-top h1 {
@@ -39,12 +40,16 @@
     justify-content: center;
     align-items: center;
     margin: 2rem 0;
+    animation: TransitionFromTop 2s;
+
 }
 .full-dishimage {
     position: relative;
     height: 35rem;
     display: flex;
     justify-content: flex-end;
+    animation: ease-in 2s;
+
 }
 
 .dishimage{
