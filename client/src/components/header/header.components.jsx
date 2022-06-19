@@ -27,13 +27,16 @@ function Header() {
               <a href="/host">Host</a>
             </li>
             <li>
-              <a href="/team">Team</a>
-            </li>
-            <li>
               <a href="/about">About</a>
             </li>
             <li>
-              <a href="/contact">Contact</a>
+              <a href="/news">News</a>
+            </li>
+            <li>
+              <a href="/snap">SNAP</a>
+            </li>
+            <li>
+              <a href="/team">Team</a>
             </li>
 
             {!isAuthenticated && (
