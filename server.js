@@ -5,6 +5,7 @@ const cors = require('cors')
 dotenv.config()
 const eventRoute = require('./routes/events.routes')
 const newsRoute = require('./routes/news.routes')
+const pantryRoute = require('./routes/capacity.routes')
 const graphRoute = require('./graphql/query')
 
 
@@ -29,6 +30,7 @@ db.once('open', () => {
 // routes
 app.use('/api/event', eventRoute)
 app.use('/api/news', newsRoute)
+app.use('/api/capacity', pantryRoute)
 app.use('/graphql', graphRoute)
 
 
