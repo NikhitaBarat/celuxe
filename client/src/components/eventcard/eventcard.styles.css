@@ -48,4 +48,13 @@
     border: none;
     width: 20rem;
     font-family: 'Poppins', sans-serif;
+    transition: all .5s;
+}
+
+.book-btn:hover {
+    transform: scale(1.04);
+}
+
+.book-btn:active{
+    transform: scale(0.9);
 }
