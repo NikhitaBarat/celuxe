@@ -5,6 +5,7 @@
     flex-wrap: wrap;
     color: white;
     padding: 2rem 5rem;
+    animation: TransitionFromButtom 2s;
 }
 
 

@@ -5,6 +5,8 @@
 .event-header {
     padding: 0 2rem;
     color: white;
+    animation: TransitionFromButtom 1s;
+
 }
 .event-header h1 {
     font-size: 4rem;

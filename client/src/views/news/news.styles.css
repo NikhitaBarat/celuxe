@@ -14,6 +14,7 @@
     text-align: right;
     width: 50rem;
     height: 35rem;
+    animation: TransitionLeft 1s;
 }
 
 .bg-relative {
@@ -48,6 +49,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    animation: TransitionFromButtom 1s;
 }
 
 .main {

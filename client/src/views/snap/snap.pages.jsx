@@ -6,6 +6,11 @@ import { Write } from "../../assets";
 const Snap = () => {
   return (
     <div className="snap-page">
+      <div className="circle-relative">
+        <div className="circle-1"></div>
+        <div className="circle-2"></div>
+      </div>
+
       <div className="snap-header">
         <h1 className="snap-topic">
           Supplemental Nutrition Assistance Program
