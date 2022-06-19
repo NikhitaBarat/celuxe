@@ -10,18 +10,25 @@ const Host = () => {
   const [date, setEventDate] = useState("");
   const [venue, setVenue] = useState("");
   const [description, setDescription] = useState("");
-  const { user } = useAuth0()
+  const { user } = useAuth0();
 
-  const scheduleEvent = async () => {
-    const resp =  await axios.post('/api/event/create', {
+   const scheduleEvent = async () => {
+
+    await axios.post("/api/event/create", {
       event_name: eventName,
       date: date,
       hostedby: user.given_name,
       venue: venue,
-      description: description
+      description: description,
     })
-    console.log(resp.data)
-  }
+      .then((res) => console.log(res.data))
+      .catch((err) => console.error(err));
+
+      setEventName("")
+      setEventDate("")
+      setVenue("")
+      setDescription("")
+  };
 
   return (
     <div className="host-page">
@@ -78,7 +85,11 @@ const Host = () => {
                 className="event-inputs event-textarea"
               />
             </div>
-            <button type="submit" className="schedule-btn" onSubmit={() => scheduleEvent()}>
+            <button
+              type="submit"
+              className="schedule-btn"
+              onClick={scheduleEvent}
+            >
               Schedule Event
             </button>
           </form>
