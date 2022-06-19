@@ -51,7 +51,7 @@
 }
 
 .main {
-    width: 30rem;
+    width: 25rem;
     padding: 0 1rem;
 }
 
@@ -74,6 +74,11 @@
     /* height: 2rem; */
     text-align: right;
     border-bottom: 2px solid white;
+}
+
+.read-more a{
+    color: white;
+    text-decoration: none;
 }
 
 .new-articles h1 {

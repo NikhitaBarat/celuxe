@@ -38,7 +38,7 @@ const News = () => {
               exacerbated a problem that was already widespread.
             </p>
             <div className="read-more">
-              <p>READ MORE</p>
+              <a href="https://www.theage.com.au/national/victoria/food-budget-of-30-a-week-students-suffer-food-insecurity-at-university-campuses-20211223-p59jpu.html" target="_blank" rel="noopener noreferrer"><p>READ MORE</p></a>
             </div>
             <h1>University students going hungry in Australia was a persistent problem before COVID-19.</h1>
             <img  className="new-thumb" src={Violin} alt="" />
@@ -66,7 +66,7 @@ const News = () => {
               student who was diabetic
             </p>
             <div className="read-more">
-              <p>READ MORE</p>
+              <a href="https://items.ssrc.org/covid-19-and-the-social-sciences/covid-19-fieldnotes/missing-fruit-international-students-food-insecurity-in-australian-universities/" target="_blank" rel="noopener noreferrer"><p>READ MORE</p></a>
             </div>
             <h1>RESEARCHING FOOD INSECURITY</h1>
             <p className="new-desp">
@@ -97,7 +97,7 @@ const News = () => {
               taken the lead.
             </p>
             <div className="read-more">
-              <p>READ MORE</p>
+              <a href="https://theconversation.com/god-i-miss-fruit-40-of-students-at-australian-universities-may-be-going-without-food-156584" target="_blank" rel="noopener noreferrer"><p>READ MORE</p></a>
             </div>
             <img className="new-thumb" src={TowerThumb} alt="" />
             <p>November 10, 2022 — 1.29pm</p>
@@ -115,7 +115,7 @@ const News = () => {
               get through the day.
             </p>
             <div className="read-more">
-              <p>READ MORE</p>
+              <a href="https://www.campusreview.com.au/2021/03/i-miss-fruit-uni-students-hustling-on-campus-for-food/" target="_blank" rel="noopener noreferrer"><p>READ MORE</p></a>
             </div>
           </div>
         </div>
