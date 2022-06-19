@@ -21,6 +21,9 @@ function Header() {
         <div className="header-right">
           <ul className="header-option">
             <li>
+              <a href="/events">Events</a>
+            </li>
+            <li>
               <a href="/host">Host</a>
             </li>
             <li>

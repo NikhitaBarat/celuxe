@@ -1,28 +1,24 @@
 import React from "react";
 import "./eventcard.styles.css";
-const Eventcard = () => {
+const Eventcard = ({ event_name, description, date, venue, hostedby }) => {
   return (
     <div className="eventcard-container">
       <div className="eventcard-content">
         <div className="eventcard-header">
           <div className="eventcard-header-text">
-            <h1>Strategies for Combating Student Food</h1>
+            <h1>{event_name}</h1>
             <div className="description">
               <p>
-                Student food insecurity is a widespread, systemic issue
-                affecting more and more individuals every year. Due to the
-                detrimental effects of food insecurity on the mental wellbeing,
-                physical health, and academic performance of students, a growing
-                number of ....
+               {description}
               </p>
               <div className="eventcard__right">
-                <span>Date: 14 Aug,2002</span>
-                <span>Venue: University Community Hall</span>
+                <span>Date: {date}</span>
+                <span>Venue: {venue}</span>
               </div>
             </div>
           </div>
           <div className="booking-btn">
-            <h2>Micheal Angelo</h2>
+            <h2>{hostedby}</h2>
             <button className="book-btn">Book Now</button>
           </div>
         </div>
