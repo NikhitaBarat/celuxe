@@ -43,18 +43,18 @@ const Home = () => {
 
       <div className="home-stats">
         <div className="stats-content">
-            <h1>3000+</h1>
-            <p>children die every day from hunger.</p>
+            <h1>3.7M</h1>
+            <p>Students are eligible for SNAP but aren't aware</p>
         </div>
 
         <div className="stats-content">
-            <h1>60%</h1>
-            <p>Women account for 60 percent of India’s hungry population.</p>
+            <h1>25%</h1>
+            <p>College students suffer from severe depression.</p>
         </div>
 
         <div className="stats-content">
-            <h1>30%</h1>
-            <p>Around 30 percent of newborns die from lack of nutrition.</p>
+            <h1>64</h1>
+            <p>Food banks identify college campuses in the US.</p>
         </div>
       </div>
     </div>
