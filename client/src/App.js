@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import { Header, Footer } from "./components";
-import { Home, About, Event, Find, News, Pantry, ScheduleEvent, Snap, Team, Host, Contact } from "./views";
+import { Home, About, Event, Find, News, Pantry, ScheduleEvent, Snap, Team, Host, Contact, NoMatch } from "./views";
 
 function App() {
   return (
@@ -19,6 +19,7 @@ function App() {
         <Route path="team" element={<Team />} />
         <Route path="host" element={<Host />} />
         <Route path="contact" element={<Contact />} />
+        <Route path="*" element={<NoMatch />} />
       </Routes>
       <Footer />
     </div>

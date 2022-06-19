@@ -9,3 +9,4 @@ export { default as Find } from './find/find.pages';
 export { default as Pantry } from './pantry/pantry.pages';
 export { default as Host } from './host/host.pages';
 export { default as Contact } from './contact/contact.pages';
+export { default as NoMatch } from './NoMatch/nomatch.pages';
