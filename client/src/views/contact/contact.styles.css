@@ -62,11 +62,12 @@
 }
 
 .screen-header-button.close {
-    background: #f5f5f5;
+    background: #e35656;
+    transform: scale(1.1);
 }
 
 .screen-header-button.maximize {
-    background: #ffffff;
+    background: #fffb25;
 }
 
 .screen-header-button.minimize {
