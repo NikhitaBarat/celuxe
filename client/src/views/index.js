@@ -1,6 +1,5 @@
 export { default as Home } from './home/home.pages';
 export { default as About } from './about/about.pages';
-export { default as ScheduleEvent } from './scheduleEvent/schedule.pages';
 export { default as Team } from './team/team.pages';
 export { default as Snap } from './snap/snap.pages';
 export { default as News } from './news/news.pages';
