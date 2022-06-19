@@ -18,4 +18,4 @@ router.get('/:id', getOnePantry)
 
 router.put('/:id', updatePantry)
 
-module.exports = rout
+module.exports = router
