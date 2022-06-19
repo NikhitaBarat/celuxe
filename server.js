@@ -6,6 +6,7 @@ dotenv.config()
 const eventRoute = require('./routes/events.routes')
 const newsRoute = require('./routes/news.routes')
 const graphRoute = require('./graphql/query')
+const path = require('path')
 
 
 // configuration
