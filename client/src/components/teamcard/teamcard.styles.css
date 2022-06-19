@@ -1,6 +1,9 @@
 .our-team {
     padding: 2rem;
 }
+.teamcard-division {
+    margin: 0 4rem;
+}
 
 .team-player {
     text-align: center;
@@ -9,7 +12,7 @@
 
 .member {
     border-radius: 40rem;
-    height: 15rem;
+    height: 10rem;
 }
 
 .social-icon {
