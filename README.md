@@ -19,8 +19,7 @@ We learned about some APIs. Most importantly, this hackathon taught us how to wo
 ## What's next for Celuxe
 We are planning to implement Twilio and Google Maps API.
 
-### Contributors
+### Authors
 
-- [Suvangi Paul](https://github.com/suvangipaul)
 - [Barat Nikhita](https://github.com/nikhitaBarat/)
 - [Siddhant Prateek](https://github.com/siddhantprateek)
